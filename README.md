@@ -10,8 +10,9 @@ Please use this template to create your own repository of this test and share yo
 * Give your repository a name. Keep the repository public as you'll need to share it with us to review.
 * When you've completed all the questions, share your repository with us by sending us the repo's URL.
 # Linux
-* What is the command to list the contents of a direcory, line by line and ordered by size ascending in human readable format? 
- Ls -1 -Sr -H  
+* What is the command to list the contents of a direcory, line by line and ordered by size ascending in human readable format?
+
+ ``` Ls -1 -Sr -H  ```
 * How would you add a DNS server to a network interface in Linux? 
  By running /etc/network/interface command to set the Ethernet / eth0 - and confifigure the DNS- (dns-nameservers IP_ADDRESS) once done , Run the sudo ifdown eth0 and sudo ifup eth0 commands to apply the changes and test changes by pinging 
 
