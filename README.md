@@ -13,6 +13,7 @@ Please use this template to create your own repository of this test and share yo
 * What is the command to list the contents of a direcory, line by line and ordered by size ascending in human readable format?
 
  ``` Ls -1 -Sr -H  ```
+ 
 * How would you add a DNS server to a network interface in Linux? 
 
  By editing the /etc/network/interface file so to set the Ethernet / eth0 - and confifigure the DNS- (dns-nameservers IP_ADDRESS) once done , Run the sudo ifup eth0 command to verify 
